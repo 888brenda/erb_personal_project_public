@@ -1,0 +1,192 @@
+body {
+    background-image: url(./image/resort.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: auto;
+}
+#header {
+    height: 15vh;
+    min-height: 10vh;
+    background-color: rgba(0, 0, 0, 0.525);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 1rem;
+    top:0;
+    margin-bottom: 2.5em;
+    box-sizing: border-box;
+    /* background: linear-gradient(90deg, rgba(0, 0, 0, 0.825),rgba(0, 0, 0, 0))no-repeat border-box; */
+}
+h1 {
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+}
+
+h1 .logo1 {
+    font-size: 3vw;
+    font-weight: auto;
+    font-family: 'Lobster', sans-serif;
+    /* font-family:'Preahvihear', sans-serif; */
+    /* font-family: 'Pacifico', cursive; */
+    color: aliceblue;
+    padding: 5%;
+}
+
+h1 .logo2 {
+    font-size: 2vw;
+    font-weight: 400;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Preahvihear', sans-serif;
+    color: rgba(134, 192, 173, 0.767);
+    position: relative;
+    padding: 1rem 1rem 1rem 0;
+}
+
+.dot1,
+.dot2,
+.dot3,
+.dot4,
+.dot5,
+.dot6,
+.dot7,
+.dot8,
+.dot9,
+.dot10.dot11,
+.dot12 {
+    font-size: 40%;
+    font-weight: bolder;
+    color: white;
+    margin-right: 0.5rem;
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.dot1 {
+    position: absolute;
+    transform: translate(10%, 20%);
+}
+
+.dot2 {
+    position: absolute;
+    transform: translate(30%, 2%);
+}
+
+.dot3 {
+    position: absolute;
+    transform: translate(55%, -8%);
+}
+
+.dot4 {
+    position: absolute;
+    transform: translate(80%, 2%);
+}
+
+.dot5 {
+    position: absolute;
+    transform: translate(100%, 20%);
+}
+
+.dot6 {
+    position: absolute;
+    transform: translate(125%, 0%);
+}
+
+.dot7 {
+    position: absolute;
+    transform: translate(150%, -14%);
+}
+
+.dot8 {
+    position: absolute;
+    transform: translate(90%, -120%);
+    font-size: 80%;
+    rotate: 45deg;
+}
+.right-header {
+    color:rgb(161, 93, 93);
+    font-size: 1.5vw;
+    font-weight: 100;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+#container {
+    width: 100%;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+#container > p {
+    font-family: Caveat;
+    font-size: 3vw;
+    font-weight: 700;
+    flex-wrap: wrap;
+    color: rgb(212, 207, 207);
+    flex-wrap: wrap;
+    word-break: break-all;
+}
+#destination {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    margin-top:5em;
+}
+#destination > ul > li {
+    font-family: Caveat;
+    font-size: 1.5em;
+    font-weight: 800;
+    flex-wrap: wrap;
+    color: white;
+    line-height: 1.5em;
+    margin: 0.5em 0.5em 0.5em 0;
+}
+#destination a:link {
+    color: white;
+    text-decoration:none;
+    color: inherit;
+}
+#destination a:visited {
+    color: white;
+    text-decoration:none;
+    /* color: inherit; */
+}
+
+#login {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    margin-top: 1em;
+    text-decoration:none;
+}
+#login > button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2vh;
+    font-weight: 800;
+    flex-wrap: wrap;
+    color: rgb(116, 112, 112);
+    line-height: 2em;
+    margin: 3em 1em 1em 1em;
+    background: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    /* padding: 0.4em; */
+    box-sizing: border-box;
+    text-decoration:none;
+}
+#login > a:link {
+    color: red;
+    text-decoration:none;
+    color: inherit;
+    text-decoration:none;
+}
+
